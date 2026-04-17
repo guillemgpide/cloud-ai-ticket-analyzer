@@ -1,20 +1,19 @@
-# Python environments
+# Python environments & cache
 venv/
 env/
 __pycache__/
 *.pyc
+.pytest_cache/
 
-# Machine Learning models & heavy data
-*.pkl
-*.h5
-*.onnx
+# Machine Learning Data
+# Ignore local datasets
 data/
-datasets/
+*.csv
 
-# Secrets and credentials
-.env
-*.pem
-
-# macOS / Windows
+# macOS system files
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
