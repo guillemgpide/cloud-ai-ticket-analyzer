@@ -1,0 +1,20 @@
+# Python environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Machine Learning models & heavy data
+*.pkl
+*.h5
+*.onnx
+data/
+datasets/
+
+# Secrets and credentials
+.env
+*.pem
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
